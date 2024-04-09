@@ -5,11 +5,8 @@ import webbrowser
 import pyaudio
 import setuptools
 
-
-# Initialize the speech recognizer
 recognizer = sr.Recognizer()
 
-# Initialize the text to speech engine
 engine = pyttsx3.init()
 
 def speak(text):
